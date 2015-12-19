@@ -1,0 +1,59 @@
+
+/* HIS DB Custom Styles */
+
+body {
+    padding-top      : 80px;
+    background-color : #e9eaea;
+}
+
+.navbar {
+    background-color : #273740;
+}
+
+.sub-header {
+    margin-bottom  : 25px;
+    padding-bottom : 5px;
+    border-bottom  : 3px solid #c5c9cB;
+}
+
+.form-control[type="submit"] {
+    background-color : #d1d4d7;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus,
+.form-control[type="submit"]:hover,
+.form-control[type="submit"]:focus {
+    background-color : #5b7c8d;
+    color            : #ffffff;
+    transition       : color 0.2s, background-color 1s;
+}
+
+.error-msg {
+    padding : 5px;
+}
+
+.section-records {
+    margin-top       : 15px;
+    margin-bottom    : 15px;
+    padding          : 15px;
+    background-color : #ffffff;
+    border           : 1px solid #5b7c8d;
+    border-top-width : 8px;
+    border-radius    : 3px;
+}
+
+.section-records thead {
+    background-color : #5b7c8d;
+    color            : #ffffff;
+}
+
+.table-info {
+    font-size : 18px;
+}
+
+.table-records {
+    background-color    : #d1d4d7;
+    border-top-width    : 2px;
+    border-bottom-width : 1px;
+}
